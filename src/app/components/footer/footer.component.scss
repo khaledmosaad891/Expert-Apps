@@ -1,0 +1,126 @@
+footer{
+    width: 100%;
+    background-color: #005B97;
+
+    div.parent{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+
+        a{
+            width: 20%;
+
+        }
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+            flex-wrap: wrap;
+            margin: auto;
+
+            
+            li{
+                list-style: none;
+                color: white;
+                
+            }
+        }
+
+        ul.info{
+            width: 65%;
+            li{
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+
+        ul.social{
+            display: flex;
+            flex-wrap: wrap;
+
+            width: 15%;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+
+              li{
+                
+                a{
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    background-color: #1A6CA2;
+                    border-color: transparent;
+                    color: white;
+                    padding: 10px;
+                }
+              }  
+            }
+        }
+    div.copyright{
+    background-color: #004979;
+    padding: 10px;
+    text-align: center;
+
+    span{
+        color: white;
+    }
+    }
+}
+
+
+// responsive design
+
+
+@media (max-width:  991.98px) {
+    a{
+        img{
+            width: 100%;
+        }
+    }
+
+    ul.info{
+        
+
+        li{
+            margin-bottom: 15px;
+        }
+    }
+    ul.social{
+        
+        li{
+            margin-bottom: 30px;
+        }
+    }
+}
+@media (max-width : 575.98px) {
+    a{
+        img{
+            width: 100%;
+        }
+    }
+    ul.info{
+      
+        li{
+            margin-bottom: 15px;
+        }
+    }
+    ul.social{
+        
+
+        li{
+            margin-bottom: 30px;
+        }
+    }
+
+}

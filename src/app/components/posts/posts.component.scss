@@ -1,0 +1,79 @@
+div.user{
+    margin-bottom: 60px;
+     button{
+         background-color:#048ef1;
+         float: right;
+         color: #fff;
+         width: 200px;
+         height: 50px;
+         font-size: 16px;
+         border-radius: 25px;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         -ms-border-radius: 25px;
+         -o-border-radius: 25px;
+         border-width: 0px;
+     }
+ }
+
+div.mat-elevation-z8{
+    table{
+        width: 100%;
+       td{
+            text-align: center;
+            color: #757575;
+            border-color:none;
+            
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 100%;
+                visibility: hidden;
+                 
+                  li{
+                    list-style: none;
+                    margin: 5px;
+
+                    };
+                    li:hover{
+                        color:#048ef1;
+                        cursor: pointer;
+                    }
+                }
+        }
+
+    ::ng-deep {
+        .mat-header-cell {
+            text-align: center !important;
+            width:20%;
+            font-size:16px;
+        }
+        
+        .mat-row{
+            height: auto;
+        }
+        
+        .mat-cell {
+            padding: 20px;
+        }
+     }
+     .mat-row :hover{
+        ul{
+          visibility: visible;
+          }
+      }
+    }
+}
+
+.mat-paginator {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+} 
+
+ 
+
+
+       
